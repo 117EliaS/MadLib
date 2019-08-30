@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginTop">0.10in</dimen>
+    <dimen name="fontBig">12pt</dimen>
+    <dimen name="fontSmall">9pt</dimen>
+    <dimen name="padding">0.10in</dimen>
+
+
+</resources>
