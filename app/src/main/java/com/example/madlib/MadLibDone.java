@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 
+import org.xml.sax.XMLReader;
+
 public class MadLibDone extends AppCompatActivity {
 
     public static final String NAME = "name";
@@ -33,6 +35,14 @@ public class MadLibDone extends AppCompatActivity {
         String noun = intent.getStringExtra(NOUN);
         String verb2 = intent.getStringExtra(VERB2);
         String adj = intent.getStringExtra(ADJ);
+
+        name = name.toUpperCase();
+        age = age.toUpperCase();
+        verb1 = verb1.toUpperCase();
+        noun = noun.toUpperCase();
+        verb2 = verb2.toUpperCase();
+        adj = adj.toUpperCase();
+
 
         String madLib = "There once was a person named " + name + ", who was " + age + " years old. "
                 + name + " was " + verb1 + " one day when they saw a " + noun + " flying through the sky!"

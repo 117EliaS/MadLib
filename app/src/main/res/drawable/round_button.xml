@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+
+<!-- //Found using video guide. URL for Video Guide: https://www.youtube.com/watch?v=plQIpqBcdQE -->
+
+
+    <solid android:color="@color/btBackground"/>
+    <corners android:radius="30dp"/>
+
+
+
+
+
+</shape>

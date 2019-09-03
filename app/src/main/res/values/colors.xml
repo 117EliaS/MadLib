@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0040FF</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#001D69</color>
     <color name="colorAccent">#D81B60</color>
     <color name="background">#FF7979</color>
     <color name="white">#FFFFFF</color>
+    <color name="title">#00BCD4</color>
+    <color name="btBackground">#FFE500</color>
 </resources>
