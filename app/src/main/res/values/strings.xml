@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name"><u>MadLib</u></string>
+    <string name="app_name"><u><font color="red">M</font><font color="#ff9100">a</font><font color="yellow">d</font><font color="green">L</font><font color="blue">i</font><font color="purple">b</font></u></string>
 
-    <string name="toptitle"><i><b>Type In The Required Words Below</b></i></string>
+    <string name="toptitle"><i><b>Type In The Words Below</b></i></string>
 
     <string name="titleRainbow"></string>
 

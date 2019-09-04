@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="background">#FF7979</color>
     <color name="white">#FFFFFF</color>
-    <color name="title">#00BCD4</color>
+    <color name="title">#00FF71</color>
     <color name="btBackground">#FFE500</color>
+    <color name="gray">#BBBBBB</color>
 </resources>

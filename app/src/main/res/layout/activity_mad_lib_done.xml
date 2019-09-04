@@ -55,7 +55,9 @@
 
         android:onClick="goBack"
 
-        android:text="Make New MadLib" />
+        android:text="Make New MadLib"
+
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/shareMadlib"
@@ -72,7 +74,9 @@
         android:background="@drawable/round_button"
         android:onClick="shareMadLib"
 
-        android:text="Share MadLib" />
+        android:text="Share MadLib"
+
+        android:textAllCaps="false"/>
 
 
 </GridLayout>

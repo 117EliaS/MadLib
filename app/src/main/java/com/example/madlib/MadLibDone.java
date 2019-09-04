@@ -1,8 +1,11 @@
 package com.example.madlib;
 
 import android.content.Intent;
+import android.support.v4.text.HtmlCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
 import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
@@ -36,13 +39,17 @@ public class MadLibDone extends AppCompatActivity {
         String verb2 = intent.getStringExtra(VERB2);
         String adj = intent.getStringExtra(ADJ);
 
-        name = name.toUpperCase();
-        age = age.toUpperCase();
-        verb1 = verb1.toUpperCase();
-        noun = noun.toUpperCase();
-        verb2 = verb2.toUpperCase();
-        adj = adj.toUpperCase();
 
+        name = "<font color='#EE0000'>" + name + "</font>";
+        age = "<font color='#EE0000'>" + age + "</font>";
+        verb1 = "<font color='#EE0000'>" + verb1 + "</font>";
+        noun = "<font color='#EE0000'>" + noun + "</font>";
+        verb2 = "<font color='#EE0000'>" + verb2 + "</font>";
+        adj = "<font color='#EE0000'>" + adj + "</font>";
+
+        //Experimental Code
+        //name = "<b>" + name + "</b>";
+        //Spanned nameHTML = HtmlCompat.fromHtml(name, HtmlCompat.FROM_HTML_MODE_COMPACT);
 
         String madLib = "There once was a person named " + name + ", who was " + age + " years old. "
                 + name + " was " + verb1 + " one day when they saw a " + noun + " flying through the sky!"
@@ -50,7 +57,9 @@ public class MadLibDone extends AppCompatActivity {
 
         TextView madLibText = (TextView) findViewById(R.id.textViewMadLib);
 
-        madLibText.setText(madLib);
+
+
+        madLibText.setText(Html.fromHtml(madLib));
 
 
 

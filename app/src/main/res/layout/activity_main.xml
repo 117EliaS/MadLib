@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:padding="@dimen/padding"
-    android:background="@color/background">
+    android:background="@color/background"
+    >
 
     <TextView
-        android:layout_width="297dp"
+        android:layout_width="343dp"
         android:layout_height="wrap_content"
         android:layout_row="0"
 
@@ -211,21 +212,23 @@
 
         android:onClick="createMadLib"
 
-        android:text="Create MadLib" />
+        android:text="Create MadLib"
+
+        android:textAllCaps="false"/>
 
     <TextView
         android:id="@+id/warning"
-        android:layout_width="151dp"
+        android:layout_width="118dp"
         android:layout_height="wrap_content"
         android:layout_row="8"
-
-        android:gravity="center_horizontal"
 
         android:layout_column="1"
 
         android:layout_marginTop="@dimen/marginTop"
-        android:text="Please Fill In All boxes!"
-        android:textColor="@color/colorPrimaryDark"
+
+        android:gravity="center_horizontal"
+        android:text="Please Fill In All Boxes!"
+        android:textColor="@color/title"
         android:textSize="@dimen/fontSmall"
 
         android:visibility="invisible"
